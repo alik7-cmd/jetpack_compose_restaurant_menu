@@ -46,20 +46,20 @@ fun FoodItemPager(pagerState: PagerState, navController : NavHostController){
                 FoodItem(
                     0,
                     "Burger",
-                    "Burger",
+                    "Burger & Sandwich",
                     "https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
                 ),
                 FoodItem(
                     1,
-                    "Burger",
-                    "",
-                    "https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
+                    "Savoury",
+                    "Savoury Awesome!",
+                    "https://images.pexels.com/photos/4349774/pexels-photo-4349774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 ),
                 FoodItem(
                     3,
-                    "Burger",
-                    "Burger",
-                    "https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
+                    "Cake",
+                    "Beautiful Cake",
+                    "https://images.pexels.com/photos/1835765/pexels-photo-1835765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 )
             ), navController
         )

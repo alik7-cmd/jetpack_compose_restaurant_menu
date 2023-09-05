@@ -37,7 +37,7 @@ fun CategoryList(categories: List<Category>, navHostController: NavHostControlle
                         .padding(4.dp)
                         .fillMaxWidth(),
                     onClick = {
-                        navHostController.navigate(Screen.Food.route)
+                        //navHostController.navigate(Screen.Food.route)
                     }
                 )
             }

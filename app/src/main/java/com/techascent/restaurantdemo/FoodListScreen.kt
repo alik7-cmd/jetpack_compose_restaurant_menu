@@ -24,6 +24,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 
 @Composable
@@ -53,7 +54,6 @@ fun ItemFoodCard(item: FoodItem, modifier: Modifier = Modifier, onClick: () -> U
         onClick = onClick,
         modifier = modifier,
         shape = CardDefaults.shape,
-        colors = CardDefaults.cardColors(containerColor = Color.White),
         elevation = CardDefaults.cardElevation()
     ) {
         Row {
@@ -72,7 +72,7 @@ fun ItemFoodCard(item: FoodItem, modifier: Modifier = Modifier, onClick: () -> U
                 Text(
                     text = item.name,
                     modifier = Modifier.padding(0.dp, 0.dp, 12.dp, 0.dp),
-                    color = Color.Black,
+                    fontSize = 25.sp,
                     fontWeight = FontWeight.Bold,
                     style = MaterialTheme.typography.titleMedium
                 )
@@ -81,7 +81,7 @@ fun ItemFoodCard(item: FoodItem, modifier: Modifier = Modifier, onClick: () -> U
                 Text(
                     text = item.description,
                     modifier = Modifier.padding(0.dp, 0.dp, 12.dp, 0.dp),
-                    color = MaterialTheme.colorScheme.surface,
+                    fontSize = 15.sp,
                     style = MaterialTheme.typography.displaySmall
                 )
 

@@ -68,30 +68,6 @@ fun ComposeNavigation() {
             DetailsScreen(navController)
         }
 
-        composable(Screen.Food.route) {
-            FoodList(
-                foodItems = listOf(
-                    FoodItem(
-                        0,
-                        "Burger",
-                        "Burger",
-                        "https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
-                    ),
-                    FoodItem(
-                        1,
-                        "Burger",
-                        "",
-                        "https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
-                    ),
-                    FoodItem(
-                        3,
-                        "Burger",
-                        "Burger",
-                        "https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
-                    )
-                ), navController
-            )
-        }
     }
 
 }
