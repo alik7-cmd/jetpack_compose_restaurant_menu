@@ -2,7 +2,7 @@ package com.techascent.restaurantdemo
 
 sealed class Screen(val route : String){
 
-    object Category : Screen("category")
+    object Home : Screen("home")
     object Details : Screen("details")
     object Food : Screen("food")
 
